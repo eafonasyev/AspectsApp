@@ -23,12 +23,30 @@
             <version>5.3.22</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+        <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+        <!-- https://mvnrepository.com/artifact/com.alibaba.csp/sentinel-annotation-aspectj -->
         <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>1.9.5</version>
-            <scope>runtime</scope>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-annotation-aspectj</artifactId>
+            <version>1.8.5</version>
         </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>5.3.22</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>5.3.22</version>
+        </dependency>
+
+
 
     </dependencies>
     
